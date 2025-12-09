@@ -1,0 +1,69 @@
+{
+    "test": [
+        {
+            "image": "patient0001.nii.gz",
+            "label": "patient0001_gt.nii.gz"
+        },
+        {
+            "image": "patient0002.nii.gz",
+            "label": "patient0002_gt.nii.gz"
+        },
+        {
+            "image": "patient0003.nii.gz",
+            "label": "patient0003_gt.nii.gz"
+        }
+        
+    ],
+    "train": [
+        {
+            "image": "patient0037.nii.gz",
+            "label": "patient0037_gt.nii.gz"
+        },
+        {
+            "image": "patient0038.nii.gz",
+            "label": "patient0038_gt.nii.gz"
+        },
+        {
+            "image": "patient0039.nii.gz",
+            "label": "patient0039_gt.nii.gz"
+        },
+        {
+            "image": "patient0040.nii.gz",
+            "label": "patient0040_gt.nii.gz"
+        },
+        {
+            "image": "patient0041.nii.gz",
+            "label": "patient0041_gt.nii.gz"
+        },
+        {
+            "image": "patient0042.nii.gz",
+            "label": "patient0042_gt.nii.gz"
+        },   
+        {
+            "image": "patient0043.nii.gz",
+            "label": "patient0043_gt.nii.gz"
+        },
+        {
+            "image": "patient0044.nii.gz",
+            "label": "patient0044_gt.nii.gz"
+        },
+        {
+            "image": "patient0045.nii.gz",
+            "label": "patient0045_gt.nii.gz"
+        }
+    ],
+    "val": [
+        {
+            "image": "patient0048.nii.gz",
+            "label": "patient0048_gt.nii.gz"
+        },
+        {
+            "image": "patient0049.nii.gz",
+            "label": "patient0049_gt.nii.gz"
+        },
+        {
+            "image": "patient0050.nii.gz",
+            "label": "patient0050_gt.nii.gz"
+        }
+    ]
+}
