@@ -47,6 +47,10 @@ pip install ray[default]==2.5.0 optuna tensorboardX
 pip install timm
 ```
 ## 📂 專案結構 (Project Structure)
+
+詳細目錄說明：
+
+```text
 CardiacSegV2/
 ├── data_utils/          # 資料載入與處理核心
 │   ├── dataset.py       # 定義 DataLoader 與 Dataset 類別
@@ -64,6 +68,7 @@ CardiacSegV2/
 │   └── chgh_transform.py # 定義幾何變換、強度偏移與正規化流程
 └── losses/              # 損失函數
     └── loss.py          # DiceFocalLoss 定義
+```
 
 ## 📊 最佳超參數配置 (Optimal Hyperparameters)
 經過兩階段搜尋（廣域探索 -> 精細搜尋），我們鎖定的最終最佳參數如下：
